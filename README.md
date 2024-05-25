@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Source Code](https://github.com/ivandro-neto/Age-Calculator-App.git)
+- Live Site URL: [Live Site](https://age-calculator-app-bice.vercel.app/)
 
 ## My process
 
