@@ -1,0 +1,99 @@
+.screen{
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 100%;
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;  
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.action_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.action_container span{
+  flex-grow: 1;
+  background-color: var(--light-grey);
+  height: .2rem;
+}
+
+.generate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  background-color: var(--purple);
+  border-radius: 100%;
+  padding: 20px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.generate:hover {
+  background-color: var(--off-black);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.error {
+  font-size: 0.8em;
+  color: var(--light-red);
+}
+
+@media screen and (max-width: 768px) {
+  .action_container{
+    justify-content: center;
+  }
+  .generate{
+    width: 64px;
+    height: 64px;
+  }
+  .action_container span{
+    display: none;
+  }
+  .container{
+    gap: 20px;
+    width: 90%;
+  }
+
+  
+}
+

@@ -1,0 +1,24 @@
+.block{
+  font-weight: 1000;
+  font-size: 4.5rem;
+  font-style: italic;
+  color: var(--off-black);
+}
+.value{
+  font-style: italic;
+  font-weight: 1000;
+  font-size: 4.5rem;
+  color: var(--purple);
+  
+}
+.container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (max-width: 768px) {
+  .block{
+    font-size: 3.5rem;
+  }
+}
